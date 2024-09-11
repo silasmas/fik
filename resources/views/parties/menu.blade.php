@@ -3,7 +3,7 @@
     <!-- logo-box -->
     <div class="logo-box">
         <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
-        <figure class="logo"><a href="#"><img src="{{ asset('assets/images/lg.png') }}" alt=""></a></figure>
+        <figure class="logo"  width="500"><a href="#"><img src="{{ asset('assets/images/lg.png') }}" alt=""></a></figure>
     </div>
     <!-- header-top -->
     <div class="header-top">
@@ -62,12 +62,11 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="index.html">Accueil</a>
-                                </li>
-                                <li class="dropdown"><a href="index.html">Aprpopos</a></li>
-                                <li class="dropdown"><a href="index.html">Nos activités</a> </li>
-                                <li class="dropdown"><a href="index.html">Archives</a></li>
-                                <li class="dropdown"><a href="index.html">Contact</a></li>
+                                <li class="{{active('home')}}"><a href="{{ route('home') }}">Accueil</a></li>
+                                <li class="{{active('apropos')}}"><a href="{{ route('apropos') }}">Aprpopos</a></li>
+                                <li class="{{active('activites')}} {{ active('detailActivite') }}"><a href="{{ route('activites') }}">Nos activités</a> </li>
+                                <li class="{{active('archives')}} {{ active('detailArchive') }}"><a href="{{ route('archives') }}">Archives</a></li>
+                                <li class="{{active('contact')}}"><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </nav>

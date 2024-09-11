@@ -20,6 +20,7 @@
   <script src="{{ asset('assets/js/text_animation.js') }}"></script>
   <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
 
+  @yield("script")
   <!-- main-js -->
   <script src="{{ asset('assets/js/script.js') }}"></script>
 

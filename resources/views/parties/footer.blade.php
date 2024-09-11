@@ -23,11 +23,11 @@
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><a href="about.html">Accueil</a></li>
-                                <li><a href="volunteer.html">Apropos</a></li>
-                                <li><a href="events.html">Nos activités</a></li>
-                                <li><a href="blog.html">Archives</a></li>
-                                <li><a href="donations.html">Contact</a></li>
+                                <li><a href="{{ route('home') }}">Accueil</a></li>
+                                <li><a href="{{ route('apropos') }}">Apropos</a></li>
+                                <li><a href="{{ route('activites') }}">Nos activités</a></li>
+                                <li><a href="{{ route('archives') }}">Archives</a></li>
+                                <li><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -71,15 +71,15 @@
         <div class="auto-container">
             <div class="inner-box clearfix">
                 <div class="copyright pull-left">
-                    <p>&copy; 2024 <a href="index.html">FIK,</a> Tout droits reservé.</p>
+                    <p>&copy; 2024 <a href="{{ route('home') }}">FIK,</a> Tout droits reservé.</p>
                 </div>
                 <ul class="footer-card pull-right clearfix">
                     <li><span>Canaux de donations :</span></li>
-                    <li><a href="index.html"><img src="assets/images/resource/card-1.png" alt=""></a></li>
-                    <li><a href="index.html"><img src="assets/images/resource/card-2.png" alt=""></a></li>
-                    <li><a href="index.html"><img src="assets/images/resource/card-3.png" alt=""></a></li>
-                    <li><a href="index.html"><img src="assets/images/resource/card-4.png" alt=""></a></li>
-                    <li><a href="index.html"><img src="assets/images/resource/card-5.png" alt=""></a></li>
+                    <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-1.png" alt=""></a></li>
+                    <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-2.png" alt=""></a></li>
+                    <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-3.png" alt=""></a></li>
+                    <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-4.png" alt=""></a></li>
+                    <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-5.png" alt=""></a></li>
                 </ul>
             </div>
         </div>

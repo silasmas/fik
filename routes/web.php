@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AccueilController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', [AccueilController::class, 'index'])->name('home');
+Route::get('/apropos', [AccueilController::class, 'about'])->name('apropos');
+Route::get('/activites', [AccueilController::class, 'activites'])->name('activites');
+Route::get('/archives', [AccueilController::class, 'archives'])->name('archives');
+Route::get('/contact', [AccueilController::class, 'contact'])->name('contact');
+Route::get('/detailActivite/{id}', [AccueilController::class, 'show'])->name('detailActivite');
+Route::get('/detailArchive/{id}', [AccueilController::class, 'detailArchive'])->name('detailArchive');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
