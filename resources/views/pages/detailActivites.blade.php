@@ -261,7 +261,6 @@
 @endsection
 
 @section("script")
-
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
 <script src= "{{ asset('assets/js/gmaps.js') }}"></script>
 <script src="{{ asset('assets/js/map-helper.js') }}"></script>

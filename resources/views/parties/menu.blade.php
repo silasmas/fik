@@ -3,7 +3,7 @@
     <!-- logo-box -->
     <div class="logo-box">
         <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
-        <figure class="logo"  width="500"><a href="#"><img src="{{ asset('assets/images/lg.png') }}" alt=""></a></figure>
+        <figure class="logo"  width="500"><a href="#"><img src="{{ asset('assets/images/3.png') }}" alt=""></a></figure>
     </div>
     <!-- header-top -->
     <div class="header-top">

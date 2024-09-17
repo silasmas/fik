@@ -1633,7 +1633,7 @@
                 <div class="left-column pull-left">
                     <div class="logo-box">
                         <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
-                        <figure class="logo"><a href=""><img src="{{asset("assets/images/lg.jpg")}}" alt=""></a></figure>
+                        <figure class="logo"><a href=""><img src="{{asset("assets/images/4.png")}}" alt=""></a></figure>
                     </div>
                     <div class="text">
                         <h3><i class="icon-email-open-sketched-envelope"></i>Subscribe <br />Our Newsletter</h3>
