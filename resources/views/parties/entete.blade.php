@@ -8,7 +8,7 @@
 <title> {{config('app.name') }} | {{isset($titre)?$titre:""}}</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="assets/images/3.png" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
