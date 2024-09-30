@@ -20,8 +20,8 @@ return [
             'desc' => 'Dans la vie il faus toujour aidée les personnes qui son dans les besions et au tour de nous!!',
         ],
         's2' => [
-            't1' => 'Avantage 2',
-            'desc' => 'description',
+            't1' => 'pour ma communauté Je suis pret',
+            'desc' => 'faire un don aux personnes vulnérables  est un acte de bravour pour les hummes de coeur',
         ],
         's3' => [
             't1' => 'Avantage 3',
