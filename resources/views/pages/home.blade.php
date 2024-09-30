@@ -1194,7 +1194,7 @@
                                 <p>@lang('info.avantage.s2.desc')</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                        {{-- <div class="col-lg-6 col-md-6 col-sm-12 single-column">
                             <div class="single-item">
                                 <span>03</span>
                                 <div class="icon-box">
@@ -1221,7 +1221,7 @@
                                 <h3>@lang('info.avantage.s4.t1')</h3>
                                 <p>@lang('info.avantage.s4.desc')</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
