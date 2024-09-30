@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="othre-text centred">
-                        <span class="animation_text_word"></span>
+                        <span class="animation_text_word">@lang('info.slogant')</span>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -229,100 +229,6 @@
     </div>
 </section>
 <!-- about-section end -->
-
-
-<!-- urgent-case-section -->
-<section class="urgent-case-section" style="background-image: url(assets/images/background/1.jpg);">
-    <div class="outer-container">
-        <div class="inner-box clearfix">
-            <div class="single-block" style="background-image: url(assets/images/background/2.jpg);">
-                <div class="text">
-                    <h3><i class="icon-tax-free"></i>Make the <br />Most Out of Tax Time</h3>
-                    <p>Receive as much as 53% amount back tax-time.</p>
-                    <ul class="list-style-one clearfix">
-                        <li>Provincial tax incentives add up</li>
-                        <li>Eliminate the capital gains tax</li>
-                        <li>Consider carrying donations forward</li>
-                    </ul>
-                    <a href="index.html">More Details</a>
-                </div>
-            </div>
-            <div class="single-block" style="background-image: url(assets/images/background/3.jpg);">
-                <div class="text">
-                    <h3><i class="icon-gift"></i>Offrez une<br />
-                        carte-cadeau caritative</h3>
-                    <p>You Choose the design, Value and your recipient.</p>
-                    <ul class="list-style-one clearfix">
-                        <li>Select your gift card</li>
-                        <li>We deliver your card on the day</li>
-                        <li>Make them happy for all occasion</li>
-                    </ul>
-                    <a href="index.html">More Details</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="right-column">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-6">
-                    <div class="urgent-case-block">
-                        <div class="upper-box" style="background-image: url(assets/images/background/4.jpg);">
-                            <div class="sec-title light">
-                                <span class="top-text">Cause urgente</span>
-                                <h2>Syrie : des millions de personnes ne mangent pas toute la journée</h2>
-                            </div>
-                            <div class="text">
-                                <p>Passages of lorem ipsum available the majority have suffered alteration all form
-                                    injected humours.</p>
-                            </div>
-                            <div class="timer">
-                                <div class="cs-countdown" data-countdown="06/24/2021 05:06:59"></div>
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-7.png);">
-                            </div>
-                            <div class="donate-inner clearfix">
-                                <div class="pattern-layer-2"
-                                    style="background-image: url(assets/images/shape/shape-8.png);"></div>
-                                <div class="amount-box">
-                                    <div class="icon-box"><i class="fas fa-dollar-sign"></i></div>
-                                    <h5>Charity Raised</h5>
-                                    <div class="price">$42,000 <span>/ $80,000</span></div>
-                                </div>
-                                <div class="percentage-box">
-                                    <div class="bar"></div>
-                                    <h5>53%</h5>
-                                </div>
-                                <div class="btn-box">
-                                    <button class="donate-box-btn">Donate Now</button>
-                                </div>
-                            </div>
-                            <ul class="info-box clearfix">
-                                <li>
-                                    <i class="far fa-calendar-alt"></i>
-                                    <h5>Days</h5>
-                                    <p>28 Days Left</p>
-                                </li>
-                                <li>
-                                    <i class="fas fa-users"></i>
-                                    <h5>40+</h5>
-                                    <p>Suppoters</p>
-                                </li>
-                                <li class="share">
-                                    <i class="fas fa-share-alt"></i>
-                                    <h5><a href="index.html">Share</a></h5>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- urgent-case-section -->
 
 
 <!-- case-section -->
@@ -1212,7 +1118,7 @@
 
 
 <!-- recent-case-section -->
-<section class="recent-case-section">
+{{-- <section class="recent-case-section">
     <div class="bg-layer" style="background-image: url(assets/images/background/5.jpg);"></div>
     <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
     <div class="auto-container">
@@ -1236,7 +1142,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- recent-case-section end -->
 
 
@@ -1401,192 +1307,14 @@
 <!-- video-section end -->
 
 
-<!-- events-section -->
-<section class="events-section">
-    <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-17.png);"></div>
-    <div class="bg-layer" style="background-image: url(assets/images/background/7.jpg);"></div>
-    <div class="auto-container">
-        <div class="inner-container">
-            <div class="shape" style="background-image: url(assets/images/shape/shape-18.png);"></div>
-            <div class="row clearfix">
-                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                    <div class="content_block_2">
-                        <div class="content-box">
-                            <div class="sec-title light">
-                                <span class="top-text">@lang('info.event.section')</span>
-                                <h2>@lang('info.event.grandtitre')</h2>
-                            </div>
-                            <div class="text">
-                                <p>@lang('info.event.stitre')</p>
-                                <a href="events.html" class="theme-btn btn-one">@lang('info.event.btneventall')</a>
-                            </div>
-                            <div class="sponsors-inner">
-                                <h3>@lang('info.event.sectionsponsort') :</h3>
-                                <div class="sponsors-carousel owl-carousel owl-theme owl-dots-none">
-                                    <figure class="sponsors-logo"><a href="index.html"><img
-                                                src="assets/images/clients/sponsors-1.png" alt=""></a></figure>
-                                    <figure class="sponsors-logo"><a href="index.html"><img
-                                                src="assets/images/clients/sponsors-2.png" alt=""></a></figure>
-                                    <figure class="sponsors-logo"><a href="index.html"><img
-                                                src="assets/images/clients/sponsors-3.png" alt=""></a></figure>
-                                </div>
-                                <h6><a href="index.html">@lang('info.event.btnevent')</a></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
-                    <div class="right-column">
-                        <div class="events-block-one wow fadeInRight animated" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <div class="shape" style="background-image: url(assets/images/shape/shape-20.png);">
-                                </div>
-                                <figure class="image-box">
-                                    <img src="assets/images/events/events-1.jpg" alt="">
-                                    <h3>31<span>Feb</span></h3>
-                                </figure>
-                                <div class="inner">
-                                    <ul class="info clearfix">
-                                        <li><i class="far fa-clock"></i>11.30 am</li>
-                                        <li><i class="far fa-map"></i>Newyork</li>
-                                    </ul>
-                                    <h3><a href="event-details.html">Royal Parks Half Marathon</a></h3>
-                                    <div class="links"><a href="event-details.html">More Details</a></div>
-                                    <div class="price">
-                                        <h6>$180.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="events-block-one wow fadeInRight animated" data-wow-delay="100ms"
-                            data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <div class="shape" style="background-image: url(assets/images/shape/shape-20.png);">
-                                </div>
-                                <figure class="image-box">
-                                    <img src="assets/images/events/events-2.jpg" alt="">
-                                    <h3>05<span>Mar</span></h3>
-                                </figure>
-                                <div class="inner">
-                                    <ul class="info clearfix">
-                                        <li><i class="far fa-clock"></i>10.00 am</li>
-                                        <li><i class="far fa-map"></i>California</li>
-                                    </ul>
-                                    <h3><a href="event-details.html">Pure Hearts Virtual Brain Game</a></h3>
-                                    <div class="links"><a href="event-details.html">More Details</a></div>
-                                    <div class="price">
-                                        <h6>For Free</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="events-block-one wow fadeInRight animated" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <div class="shape" style="background-image: url(assets/images/shape/shape-20.png);">
-                                </div>
-                                <figure class="image-box">
-                                    <img src="assets/images/events/events-3.jpg" alt="">
-                                    <h3>22<span>Mar</span></h3>
-                                </figure>
-                                <div class="inner">
-                                    <ul class="info clearfix">
-                                        <li><i class="far fa-clock"></i>05.30 am</li>
-                                        <li><i class="far fa-map"></i>Newyork</li>
-                                    </ul>
-                                    <h3><a href="event-details.html">USA Walks, Treks and Hikes</a></h3>
-                                    <div class="links"><a href="event-details.html">More Details</a></div>
-                                    <div class="price">
-                                        <h6>$160.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- events-section end -->
 
 
 @include("parties.team")
 
 
-<!-- testimonial-section -->
-<section class="testimonial-section">
-    <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-24.png);"></div>
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="col-lg-4 col-md-12 col-sm-12 content-column">
-                <div class="content_block_3">
-                    <div class="content-box">
-                        <div class="sec-title">
-                            <span class="top-text">@lang('info.temoignage.section')</span>
-                            <h2>@lang('info.temoignage.gtitreTemoignage')</h2>
-                        </div>
-                        <div class="text">
-                            <p>@lang('info.temoignage.gtitreTemoignage')</p>
-                            <a href="index.html" class="theme-btn btn-one">@lang('info.view_more2')</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-12 col-sm-12 inner-column">
-                <div class="inner-box">
-                    <figure class="image-box"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                    <div class="testimonial-inner">
-                        <div class="single-item-carousel owl-carousel owl-theme owl-dots-none">
-                            <div class="testimonial-block-one">
-                                <div class="text">
-                                    <div class="icon-box"><i class="fas fa-quote-left"></i></div>
-                                    <h3>It’s helped me so much.</h3>
-                                    <p>Pure Hearts! charities provided jump start we needed to expaand our all efforts
-                                        and trains more volunteers foresee the pain trouble.</p>
-                                    <h4>Isaac Samuel</h4>
-                                    <span class="designation">California</span>
-                                </div>
-                                <figure class="testimonial-thumb"><img
-                                        src="assets/images/resource/testimonial-thumb-1.png" alt=""></figure>
-                            </div>
-                            <div class="testimonial-block-one">
-                                <div class="text">
-                                    <div class="icon-box"><i class="fas fa-quote-left"></i></div>
-                                    <h3>It’s helped me so much.</h3>
-                                    <p>Pure Hearts! charities provided jump start we needed to expaand our all efforts
-                                        and trains more volunteers foresee the pain trouble.</p>
-                                    <h4>Isaac Samuel</h4>
-                                    <span class="designation">California</span>
-                                </div>
-                                <figure class="testimonial-thumb"><img
-                                        src="assets/images/resource/testimonial-thumb-1.png" alt=""></figure>
-                            </div>
-                            <div class="testimonial-block-one">
-                                <div class="text">
-                                    <div class="icon-box"><i class="fas fa-quote-left"></i></div>
-                                    <h3>It’s helped me so much.</h3>
-                                    <p>Pure Hearts! charities provided jump start we needed to expaand our all efforts
-                                        and trains more volunteers foresee the pain trouble.</p>
-                                    <h4>Isaac Samuel</h4>
-                                    <span class="designation">California</span>
-                                </div>
-                                <figure class="testimonial-thumb"><img
-                                        src="assets/images/resource/testimonial-thumb-1.png" alt=""></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- testimonial-section -->
-
 
 <!-- news-section -->
-<section class="news-section sec-pad">
+{{-- <section class="news-section sec-pad">
     <div class="auto-container">
         <div class="sec-title centred">
             <span class="top-text">@lang('info.blog.section')</span>
@@ -1661,7 +1389,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- news-section end -->
 
 

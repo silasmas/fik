@@ -8,6 +8,7 @@
 return [
     'view_more' => 'Voir plus',
     'view_more2' => 'Tout voir',
+    'slogant' => 'Pour ma communauté, je m\'engage.',
     'avantage' => [
         'grandtitre' => 'Titre',
         'stitre' => 'dire un mot ',
