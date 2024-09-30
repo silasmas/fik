@@ -30,8 +30,8 @@
                                 <div class="inner-box clearfix">
                                     <div class="author-box">
                                         <div class="icon-box"><i class="icon-hand"></i></div>
-                                        <span>Founder</span>
-                                        <h3>Benjie Alphonso</h3>
+                                        <span>Fondateur</span>
+                                        <h3>Dr Ilunga Kabuyi</h3>
                                     </div>
                                     <ul class="social-links clearfix">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
@@ -54,7 +54,7 @@
                                 </div>
                                 <figure class="icon-box"><img src="assets/images/icons/heart-7.png" alt=""></figure>
                                 <div class="text">
-                                    <h4><i class="icon-donation-1"></i>16+ Years of Experience</h4>
+                                    <h4><i class="icon-donation-1"></i>16+ Années d'expérience</h4>
                                 </div>
                             </div>
                         </div>

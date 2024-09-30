@@ -1,3 +1,37 @@
+ <!-- subscribe-section -->
+<section class="subscribe-section">
+    <div class="bg-layer"></div>
+    <div class="auto-container">
+        <div class="inner-box clearfix">
+            <div class="left-column pull-left">
+                <div class="logo-box">
+                    <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+                    <figure class="logo"><a href=""><img src="{{asset("assets/images/4.png")}}" alt=""></a></figure>
+                </div>
+                <div class="text">
+                    <h3><i class="icon-email-open-sketched-envelope">
+                        </i>Abonnez-vous <br> à la newsletter</h3>
+                </div>
+            </div>
+            <div class="right-column pull-right clearfix">
+                <div class="form-inner">
+                    <form action="contact.html" method="post" class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Votre addresse mail..." required="">
+                            <button type="submit">Abonnez-vous</button>
+                        </div>
+                    </form>
+                </div>
+                <ul class="social-style-one clearfix">
+                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe-section end -->
  <!-- main-footer -->
  <section class="main-footer">
     <div class="footer-top">
@@ -7,11 +41,11 @@
                     <div class="footer-widget about-widget">
                         <div class="title-box">
                             <div class="icon-box"><i class="icon-hand"></i></div>
-                            <span>Charity of Choice</span>
-                            <h3>Partner With Us</h3>
+                            <span>FIK</span>
+                            <h3>Devenez notre partenaire</h3>
                         </div>
                         <div class="text">
-                            <p>Prevents our being able to do we like best, every pleasures is every pain avoided.</p>
+                            <p>Dites un mots</p>
                             <a href="#" class="theme-btn btn-one">Faire un don</a>
                         </div>
                     </div>

@@ -333,8 +333,8 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 title-column">
                     <div class="title-inner text-right">
                         <div class="sec-title">
-                            <span class="top-text">Notre motivation</span>
-                            <h2>Partagez la joie avec votre don</h2>
+                            <span class="top-text">@lang('info.cause.section')</span>
+                            <h2>@lang('info.cause.gtitre')</h2>
                         </div>
                         <div class="tab-btn-box">
                             <ul class="tab-btns tab-buttons clearfix">
@@ -1248,12 +1248,12 @@
             <div class="col-lg-4 col-md-12 col-sm-12 title-column">
                 <div class="title-inner">
                     <div class="sec-title">
-                        <span class="top-text">Benefits of Giving</span>
-                        <h2>Bring More Meaning to Your Life & Family</h2>
+                        <span class="top-text">@lang('info.avantage.section')</span>
+                        <h2>@lang('info.avantage.grandtitre')</h2>
                     </div>
                     <div class="text">
-                        <p>The majority have suffered alteration all injected humours randomises.</p>
-                        <a href="index.html" class="theme-btn btn-one">Read More</a>
+                        <p>@lang('info.avantage.stitre')</p>
+                        <a href="index.html" class="theme-btn btn-one">@lang('info.view_more')</a>
                     </div>
                 </div>
             </div>
@@ -1270,8 +1270,8 @@
                                         style="background-image: url(assets/images/shape/shape-14.png);"></div>
                                     <div class="icon"><i class="icon-stop-hand-drawn-signal-rhomb"></i></div>
                                 </div>
-                                <h3>Improve Self-Esteem</h3>
-                                <p>Righteous indignation and dislike mens who beguiled demoralized.</p>
+                                <h3>@lang('info.avantage.s1.t1')</h3>
+                                <p>@lang('info.avantage.s1.desc')</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -1284,8 +1284,8 @@
                                         style="background-image: url(assets/images/shape/shape-14.png);"></div>
                                     <div class="icon"><i class="icon-puzzle-piece-shape-handmade-draw"></i></div>
                                 </div>
-                                <h3>Reduce Your Stress</h3>
-                                <p>Obligations of business it will frequently pleasure have to be repudiate.</p>
+                                <h3>@lang('info.avantage.s2.t1')</h3>
+                                <p>@lang('info.avantage.s2.desc')</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -1298,8 +1298,8 @@
                                         style="background-image: url(assets/images/shape/shape-14.png);"></div>
                                     <div class="icon"><i class="icon-financial-bar-chart"></i></div>
                                 </div>
-                                <h3>Financial Benefits</h3>
-                                <p>Obligations of business it will frequently pleasure have to be repudiate.</p>
+                                <h3>@lang('info.avantage.s3.t1')</h3>
+                                <p>@lang('info.avantage.s3.desc')</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -1312,8 +1312,8 @@
                                         style="background-image: url(assets/images/shape/shape-14.png);"></div>
                                     <div class="icon"><i class="icon-house-with-heart-hand-drawn-building"></i></div>
                                 </div>
-                                <h3>Familial Benefits</h3>
-                                <p>Righteous indignation and dislike mens who beguiled demoralized.</p>
+                                <h3>@lang('info.avantage.s4.t1')</h3>
+                                <p>@lang('info.avantage.s4.desc')</p>
                             </div>
                         </div>
                     </div>
@@ -1413,15 +1413,15 @@
                     <div class="content_block_2">
                         <div class="content-box">
                             <div class="sec-title light">
-                                <span class="top-text">Our Recent Events</span>
-                                <h2>Here to Bring People Together</h2>
+                                <span class="top-text">@lang('info.event.section')</span>
+                                <h2>@lang('info.event.grandtitre')</h2>
                             </div>
                             <div class="text">
-                                <p>The majority have suffered alteration all injected <br />gets humours randomises.</p>
-                                <a href="events.html" class="theme-btn btn-one">All events</a>
+                                <p>@lang('info.event.stitre')</p>
+                                <a href="events.html" class="theme-btn btn-one">@lang('info.event.btneventall')</a>
                             </div>
                             <div class="sponsors-inner">
-                                <h3>Event Sponsors:</h3>
+                                <h3>@lang('info.event.sectionsponsort') :</h3>
                                 <div class="sponsors-carousel owl-carousel owl-theme owl-dots-none">
                                     <figure class="sponsors-logo"><a href="index.html"><img
                                                 src="assets/images/clients/sponsors-1.png" alt=""></a></figure>
@@ -1430,7 +1430,7 @@
                                     <figure class="sponsors-logo"><a href="index.html"><img
                                                 src="assets/images/clients/sponsors-3.png" alt=""></a></figure>
                                 </div>
-                                <h6><a href="index.html">Become a Sponsor</a></h6>
+                                <h6><a href="index.html">@lang('info.event.btnevent')</a></h6>
                             </div>
                         </div>
                     </div>
@@ -1524,12 +1524,12 @@
                 <div class="content_block_3">
                     <div class="content-box">
                         <div class="sec-title">
-                            <span class="top-text">Testimonials</span>
-                            <h2>Success Stories, To Know About Our Charity</h2>
+                            <span class="top-text">@lang('info.temoignage.section')</span>
+                            <h2>@lang('info.temoignage.gtitreTemoignage')</h2>
                         </div>
                         <div class="text">
-                            <p>The majority have suffered alteration all injected humours randomises.</p>
-                            <a href="index.html" class="theme-btn btn-one">All Reviews</a>
+                            <p>@lang('info.temoignage.gtitreTemoignage')</p>
+                            <a href="index.html" class="theme-btn btn-one">@lang('info.view_more2')</a>
                         </div>
                     </div>
                 </div>
@@ -1589,8 +1589,8 @@
 <section class="news-section sec-pad">
     <div class="auto-container">
         <div class="sec-title centred">
-            <span class="top-text">Blog & Article</span>
-            <h2>Check Latest Blog Post</h2>
+            <span class="top-text">@lang('info.blog.section')</span>
+            <h2>@lang('info.blog.stitreBlog')</h2>
         </div>
         <div class="row clearfix">
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
@@ -1665,39 +1665,7 @@
 <!-- news-section end -->
 
 
-<!-- subscribe-section -->
-<section class="subscribe-section">
-    <div class="bg-layer"></div>
-    <div class="auto-container">
-        <div class="inner-box clearfix">
-            <div class="left-column pull-left">
-                <div class="logo-box">
-                    <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
-                    <figure class="logo"><a href=""><img src="{{asset(" assets/images/4.png")}}" alt=""></a></figure>
-                </div>
-                <div class="text">
-                    <h3><i class="icon-email-open-sketched-envelope"></i>Subscribe <br />Our Newsletter</h3>
-                </div>
-            </div>
-            <div class="right-column pull-right clearfix">
-                <div class="form-inner">
-                    <form action="contact.html" method="post" class="subscribe-form">
-                        <div class="form-group">
-                            <input type="email" name="email" placeholder="Your Email Address..." required="">
-                            <button type="submit">Subscribe Us</button>
-                        </div>
-                    </form>
-                </div>
-                <ul class="social-style-one clearfix">
-                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- subscribe-section end -->
+
 
 
 @endsection

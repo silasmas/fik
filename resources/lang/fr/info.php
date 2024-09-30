@@ -36,7 +36,8 @@ return [
         'stitre' => 'dire un mot sur les evement',
         'section' => 'Nos évenement recents',
         'sectionsponsort' => 'Nos sponsort evenementiel',
-        'btnevent' => 'Devenir sponsort',
+        'btnevent' => 'Devenir parténaire',
+        'btneventall' => 'Touts nos evenements',
     ],
     'team' => [
         'grandtitre' => 'Titre de l\'équipe',
@@ -44,17 +45,21 @@ return [
         'section' => 'Voire notre équipe',
     ],
     'blog' => [
-        'titreBlog' => 'Blog & Article',
+        'section' => 'Blog & Article',
         'stitreBlog' => 'Sous titre du blog',
     ],
     'temoignage' => [
-        'titreTemoignage' => 'Témoignages',
+        'section' => 'Témoignages',
         'gtitreTemoignage' => 'Titre en un mot',
         'descTemoignage' => 'Courte descriptions sur les temoignages',
     ],
     'cause' => [
         'section' => 'Ce qui nous motive',
-        'gtitre' => 'Grand titre',
+        'gtitre' => 'Partagez la joie avec votre don',
+    ],
+    'about' => [
+        'vision' => 'Ce qui nous motive',
+        'gtitre' => 'Partagez la joie avec votre don',
     ],
     'slide' => [
         's1' => [

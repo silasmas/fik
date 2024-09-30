@@ -3,9 +3,9 @@
         <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-23.png);"></div>
         <div class="auto-container">
             <div class="sec-title centred">
-                <span class="top-text">Meet Our Team</span>
-                <h2>Most Passionate Team Members</h2>
-                <p>The master-builder of human happiness no one rejects, dislikes <br />or avoids  pleasure itself pleasure,</p>
+                <span class="top-text">@lang('info.team.section')</span>
+                <h2>@lang('info.team.grandtitre')</h2>
+                <p>@lang('info.team.stitre')</p>
             </div>
             <div class="four-item-carousel owl-carousel owl-theme owl-nav-none">
                 <div class="team-block-one">
