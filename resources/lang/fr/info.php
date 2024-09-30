@@ -10,14 +10,14 @@ return [
     'view_more2' => 'Tout voir',
     'slogant' => 'Pour ma communauté, je m\'engage.',
     'avantage' => [
-        'grandtitre' => 'Titre',
-        'stitre' => 'dire un mot ',
+        'grandtitre' => '',
+        'stitre' => 'Le don est toujour indispansable pour les personnes qui son dans les besions',
         'section' => 'Pourquoi faire un don',
         'sectionsponsort' => 'Nos sponsort evenementiel',
         'btnevent' => 'Devenir sponsort',
         's1' => [
-            't1' => 'Avantage 1',
-            'desc' => 'description',
+            't1' => 'Je donne Ma part',
+            'desc' => 'Dans la vie il faus toujour aidée les personnes qui son dans les besions et au tour de nous!!',
         ],
         's2' => [
             't1' => 'Avantage 2',
@@ -56,7 +56,7 @@ return [
     ],
     'cause' => [
         'section' => 'Ce qui nous motive',
-        'gtitre' => 'Partagez la joie avec votre don',
+        'gtitre' => 'Partagez la joie avec la communauté et les personnes vulnerable',
     ],
     'about' => [
         'vision' => 'Ce qui nous motive',

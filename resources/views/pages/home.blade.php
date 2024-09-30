@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s8.jpg);"></div>
+                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s8.png);"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <h2>@lang('info.slide.s4.t1')</h2>
@@ -46,15 +46,15 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s7.jpg);"></div>
+                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s10.png);"></div>
                     <div class="auto-container">
                         <div class="content-box">
-                            <h2>@lang('info.slide.s5.t1')</h2>
-                            <span>@lang('info.slide.s5.t2')</span>
-                            <h2>@lang('info.slide.s5.t3')</h2>
-                            <p>@lang('info.slide.s5.desc')</p>
+                            <h2>@lang('info.slide.s3.t1')</h2>
+                            <span>@lang('info.slide.s3.t2')</span>
+                            <h2>@lang('info.slide.s3.t3')</h2>
+                            <p>@lang('info.slide.s3.desc')</p>
                             <div class="btn-box">
-                                <a href="index.html" class="banner-btn">@lang('info.view_more')</a>
+                                <a href="" class="banner-btn">@lang('info.view_more')</a>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s4.jpg);"></div>
+                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s3.jpg);"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <h2>@lang('info.slide.s1.t1')</h2>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s5.jpg);"></div>
+                    <div class="image-layer" style="background-image: url(assets/images/banner/slides/s5.png);"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <h2>@lang('info.slide.s2.t1')</h2>
@@ -88,7 +88,7 @@
                             <h2>@lang('info.slide.s2.t3')</h2>
                             <p>@lang('info.slide.s2.desc')</p>
                             <div class="btn-box">
-                                <a href="index.html" class="banner-btn">@lang('info.view_more')</a>
+                                <a href="" class="banner-btn">@lang('info.view_more')</a>
                             </div>
                         </div>
                     </div>
@@ -187,13 +187,13 @@
                         <div class="inner">
                             <div class="sec-title">
                                 <span class="top-text">Apropos de FIK</span>
-                                <h2>Here to Bring People Together <br />to Help</h2>
+                                <h2>Fondation Ilunga Kabuyi</h2>
                             </div>
                             <div class="text">
-                                <p>The majority have suffered alteration all injected humours randomises.</p>
-                                <p>There are many variations of passages of lorem ipsum available, but the majority have
-                                    suffered alteration all form injected humours randomises don't look even slightly
-                                    belvable.</p>
+                                <p>la fondation ILUNGA KABUYI en sigle F.I.K est 
+                                    une organisation non gouvernemental panafricaine 
+                                    a pour un but non lucratif et d origine congolaise</p>
+                                <p></p>
                             </div>
                             <div class="btn-box">
                                 <a href="about.html" class="theme-btn btn-one">@lang('info.view_more')</a>
@@ -205,7 +205,7 @@
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-charity"></i></div>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="1500" data-stop="278">0</span>
+                                        <span class="count-text" data-speed="1500" data-stop="1278">0</span>
                                     </div>
                                     <h4>Volontaire</h4>
                                 </div>
@@ -216,7 +216,7 @@
                                     <div class="icon-box"><i class="icon-donation-1"></i></div>
                                     <div class="count-outer count-box">
                                         <span class="count-text" data-speed="1500"
-                                            data-stop="6.5">0</span><span>k</span>
+                                            data-stop="1.100">0</span><span>k</span>
                                     </div>
                                     <h4>Bénéficiaires</h4>
                                 </div>
