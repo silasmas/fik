@@ -11,8 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('archives', function (Blueprint $table) {
+        Schema::create('messages', function (Blueprint $table) {
             $table->id();
+            $table->string(column: 'nom');
+            $table->string(column: 'prenom')->nullable();
+            $table->string('email')->nullable();
+            $table->string('phone')->nullable();
+            $table->longText('message');
             $table->timestamps();
         });
     }
@@ -22,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('archives');
+        Schema::dropIfExists('messages');
     }
 };
