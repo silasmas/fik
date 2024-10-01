@@ -2,9 +2,8 @@
 
 namespace App\Filament\Resources;
 
-use Filament\Forms;
-use Filament\Tables;
-use App\Models\Activite;
+
+use App\Models\activite;
 use Filament\Forms\Form;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
@@ -19,21 +18,15 @@ use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
 use Filament\Tables\Actions\DeleteAction;
-use Illuminate\Database\Eloquent\Builder;
 use Filament\Tables\Actions\BulkActionGroup;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Tables\Actions\DeleteBulkAction;
 use App\Filament\Resources\ActiviteResource\Pages;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
-use App\Filament\Resources\ActiviteResource\RelationManagers;
-use App\Filament\Resources\ActiviteResource\Pages\EditActivite;
-use App\Filament\Resources\ActiviteResource\Pages\ListActivites;
-use App\Filament\Resources\ActiviteResource\Pages\CreateActivite;
 
 class ActiviteResource extends Resource
 {
-    protected static ?string $model = Activite::class;
+    protected static ?string $model = activite::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-user';
 

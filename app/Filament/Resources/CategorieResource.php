@@ -2,8 +2,6 @@
 
 namespace App\Filament\Resources;
 
-use Filament\Forms;
-use Filament\Tables;
 use Filament\Forms\Form;
 use App\Models\Categorie;
 use Filament\Tables\Table;
@@ -19,15 +17,9 @@ use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
 use Filament\Tables\Actions\DeleteAction;
-use Illuminate\Database\Eloquent\Builder;
 use Filament\Tables\Actions\BulkActionGroup;
 use Filament\Tables\Actions\DeleteBulkAction;
 use App\Filament\Resources\CategorieResource\Pages;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
-use App\Filament\Resources\CategorieResource\RelationManagers;
-use App\Filament\Resources\CategorieResource\Pages\EditCategorie;
-use App\Filament\Resources\CategorieResource\Pages\ListCategories;
-use App\Filament\Resources\CategorieResource\Pages\CreateCategorie;
 
 class CategorieResource extends Resource
 {
