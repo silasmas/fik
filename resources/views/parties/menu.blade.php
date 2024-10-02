@@ -65,7 +65,7 @@
                                 <li class="{{active('home')}}"><a href="{{ route('home') }}">Accueil</a></li>
                                 <li class="{{active('apropos')}}"><a href="{{ route('apropos') }}">Aprpopos</a></li>
                                 <li class="{{active('activites')}} {{ active('detailActivite') }}"><a href="{{ route('activites') }}">Nos activités</a> </li>
-                                <li class="{{active('archives')}} {{ active('detailArchive') }}"><a href="{{ route('archives') }}">Archives</a></li>
+                                <li class="{{active('team')}} {{ active('detailArchive') }}"><a href="{{ route('team') }}">Notre équipe</a></li>
                                 <li class="{{active('contact')}}"><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>

@@ -246,27 +246,27 @@
                             <ul class="tab-btns tab-buttons clearfix">
                                 <li class="tab-btn active-btn" data-tab="#tab-1">
                                     <h5>Toutes Categories</h5>
-                                    <div class="icon"><i class="fal fa-angle-left"></i></div>
+                                    <div class="icon"><i class="fas fa-angle-left"></i></div>
                                 </li>
                                 <li class="tab-btn" data-tab="#tab-2">
                                     <h5>Education</h5>
-                                    <div class="icon"><i class="fal fa-angle-left"></i></div>
+                                    <div class="icon"><i class="fas fa-angle-left"></i></div>
                                 </li>
                                 <li class="tab-btn" data-tab="#tab-3">
                                     <h5>Droits humains</h5>
-                                    <div class="icon"><i class="fal fa-angle-left"></i></div>
+                                    <div class="icon"><i class="fas fa-angle-left"></i></div>
                                 </li>
                                 <li class="tab-btn" data-tab="#tab-4">
                                     <h5>Agriculture</h5>
-                                    <div class="icon"><i class="fal fa-angle-left"></i></div>
+                                    <div class="icon"><i class="fas fa-angle-left"></i></div>
                                 </li>
                                 <li class="tab-btn" data-tab="#tab-5">
                                     <h5>Santé</h5>
-                                    <div class="icon"><i class="fal fa-angle-left"></i></div>
+                                    <div class="icon"><i class="fas fa-angle-left"></i></div>
                                 </li>
                                 <li class="tab-btn" data-tab="#tab-6">
                                     <h5>Environment</h5>
-                                    <div class="icon"><i class="fal fa-angle-left"></i></div>
+                                    <div class="icon"><i class="fas fa-angle-left"></i></div>
                                 </li>
                             </ul>
                         </div>
@@ -505,51 +505,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <div class="case-block-one">
-                                    <div class="inner-box">
-                                        <figure class="image-box"><img src="assets/images/case/case-3.jpg" alt="">
-                                        </figure>
-                                        <div class="lower-content">
-                                            <div class="shape"
-                                                style="background-image: url(assets/images/shape/shape-11.png);"></div>
-                                            <div class="donate-amount clearfix">
-                                                <div class="amount-box">
-                                                    <div class="icon-box"><i class="fas fa-dollar-sign"></i></div>
-                                                    <h5>Charity Raised</h5>
-                                                    <div class="price">$38,000 <span>/ $50,000</span></div>
-                                                </div>
-                                                <div class="percentage-box">
-                                                    <div class="bar">
-                                                        <div class="bar-inner count-bar" data-percent="76%"></div>
-                                                    </div>
-                                                    <div class="count-text">76%</div>
-                                                </div>
-                                            </div>
-                                            <div class="inner">
-                                                <div class="text">
-                                                    <div class="category"><a href="donation-details.html">#
-                                                            Education</a></div>
-                                                    <h3><a href="donation-details.html">Help Differently Abled Person to
-                                                            Feel Confident</a></h3>
-                                                    <p>Equal blame belongs to those who fail in their duty through
-                                                        weakness.</p>
-                                                </div>
-                                                <ul class="info-box clearfix">
-                                                    <li>
-                                                        <i class="far fa-calendar-alt"></i>
-                                                        <h5>Days</h5>
-                                                        <p>60 Days Left</p>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-users"></i>
-                                                        <h5>67+</h5>
-                                                        <p>Suppoters</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
                             </div>
                         </div>
                         <div class="tab" id="tab-3">
@@ -1117,33 +1072,6 @@
 <!-- case-section end -->
 
 
-<!-- recent-case-section -->
-{{-- <section class="recent-case-section">
-    <div class="bg-layer" style="background-image: url(assets/images/background/5.jpg);"></div>
-    <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
-    <div class="auto-container">
-        <div class="inner-box">
-            <div class="shape" style="background-image: url(assets/images/shape/shape-21.png);"></div>
-            <div class="inner">
-                <div class="sec-title centred light">
-                    <span class="top-text">Les recents donneurs</span>
-                    <h2>Des milliers de donateurs choisissent FIK <br />
-                        pour des causes à fort impact</h2>
-                </div>
-                <div class="single-item-carousel owl-carousel owl-theme owl-dots-none">
-                    <div class="single-item">
-                        <figure class="image-box"><img src="assets/images/resource/thumb-1.png" alt=""></figure>
-                        <div class="text">
-                            <h3>Jasper Flelix, <span>Liverpool</span></h3>
-                            <h6>Donated $250</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-<!-- recent-case-section end -->
 
 
 <!-- benefits-section -->
@@ -1194,34 +1122,6 @@
                                 <p>@lang('info.avantage.s2.desc')</p>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-                            <div class="single-item">
-                                <span>03</span>
-                                <div class="icon-box">
-                                    <div class="shape" style="background-image: url(assets/images/shape/shape-13.png);">
-                                    </div>
-                                    <div class="shape-2"
-                                        style="background-image: url(assets/images/shape/shape-14.png);"></div>
-                                    <div class="icon"><i class="icon-financial-bar-chart"></i></div>
-                                </div>
-                                <h3>@lang('info.avantage.s3.t1')</h3>
-                                <p>@lang('info.avantage.s3.desc')</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-                            <div class="single-item">
-                                <span>04</span>
-                                <div class="icon-box">
-                                    <div class="shape" style="background-image: url(assets/images/shape/shape-13.png);">
-                                    </div>
-                                    <div class="shape-2"
-                                        style="background-image: url(assets/images/shape/shape-14.png);"></div>
-                                    <div class="icon"><i class="icon-house-with-heart-hand-drawn-building"></i></div>
-                                </div>
-                                <h3>@lang('info.avantage.s4.t1')</h3>
-                                <p>@lang('info.avantage.s4.desc')</p>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -1310,91 +1210,6 @@
 
 
 @include("parties.team")
-
-
-
-<!-- news-section -->
-{{-- <section class="news-section sec-pad">
-    <div class="auto-container">
-        <div class="sec-title centred">
-            <span class="top-text">@lang('info.blog.section')</span>
-            <h2>@lang('info.blog.stitreBlog')</h2>
-        </div>
-        <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms"
-                    data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news.png"
-                                    alt=""></a></figure>
-                        <div class="content-box">
-                            <div class="text">
-                                <span class="post-date">03.03.2021</span>
-                                <div class="category"><a href="blog-details.html"># National Day</a></div>
-                                <h3><a href="blog-details.html">This is World Cancer Day, We Provide Care</a></h3>
-                                <p>Our being able do what we like best pleasure is to welcomed. . .</p>
-                            </div>
-                            <div class="info clearfix">
-                                <div class="link-box pull-left"><a href="blog-details.html">More Details</a></div>
-                                <div class="comment-box pull-right"><a href="blog-details.html"><i
-                                            class="far fa-comment"></i>08 Cmts</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="300ms"
-                    data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news.png"
-                                    alt=""></a></figure>
-                        <div class="content-box">
-                            <div class="text">
-                                <span class="post-date">24.02.2021</span>
-                                <div class="category"><a href="blog-details.html"># Treatment</a></div>
-                                <h3><a href="blog-details.html">I Want to Get Every People Volunteering</a></h3>
-                                <p>Our being able do what we like best pleasure is to welcomed. . .</p>
-                            </div>
-                            <div class="info clearfix">
-                                <div class="link-box pull-left"><a href="blog-details.html">More Details</a></div>
-                                <div class="comment-box pull-right"><a href="blog-details.html"><i
-                                            class="far fa-comment"></i>03 Cmts</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="600ms"
-                    data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news.png"
-                                    alt=""></a></figure>
-                        <div class="content-box">
-                            <div class="text">
-                                <span class="post-date">08.01.2021</span>
-                                <div class="category"><a href="blog-details.html"># Health & Food</a></div>
-                                <h3><a href="blog-details.html">The Last Day of World Hunger Month</a></h3>
-                                <p>Our being able do what we like best pleasure is to welcomed. . .</p>
-                            </div>
-                            <div class="info clearfix">
-                                <div class="link-box pull-left"><a href="blog-details.html">More Details</a></div>
-                                <div class="comment-box pull-right"><a href="blog-details.html"><i
-                                            class="far fa-comment"></i>08 Cmts</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-<!-- news-section end -->
-
-
-
-
 
 @endsection
 

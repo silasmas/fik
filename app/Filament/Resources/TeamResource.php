@@ -83,9 +83,20 @@ class TeamResource extends Resource
                     ]),
                 ])->columnSpan(4),
                 Group::make([
-                    Section::make('Profile')->schema([
+                    Section::make('Photos')->schema([
+                        FileUpload::make(name: 'tache')
+                            ->label('Photo de couverture (270 X 400)')
+                            ->directory('couverture')
+                            ->imageEditor()
+                            ->imageEditorMode(2)
+                            ->downloadable()
+                            ->image()
+                            ->maxSize(2024)
+                            ->columnSpan(12)
+                            ->previewable(true),
+
                         FileUpload::make('profil')
-                            ->label('Photo de profile (270 X 400)')
+                            ->label('Photo de profile (1400 X 1400)')
                             ->directory('profil')
                             ->avatar()
                             ->imageEditor()
@@ -93,8 +104,8 @@ class TeamResource extends Resource
                             ->circleCropper()
                             ->downloadable()
                             ->image()
-                            ->maxSize(1024)
-                            ->columnSpan(6)
+                            ->maxSize(2024)
+                            ->columnSpan(12)
                             ->previewable(true),
                     ])
                 ])->columnSpan(2),

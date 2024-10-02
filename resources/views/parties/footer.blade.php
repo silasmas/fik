@@ -60,7 +60,7 @@
                                 <li><a href="{{ route('home') }}">Accueil</a></li>
                                 <li><a href="{{ route('apropos') }}">Apropos</a></li>
                                 <li><a href="{{ route('activites') }}">Nos activités</a></li>
-                                <li><a href="{{ route('archives') }}">Archives</a></li>
+                                <li><a href="{{ route('team') }}">Notre équipe</a></li>
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>

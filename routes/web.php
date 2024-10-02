@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [AccueilController::class, 'index'])->name('home');
 Route::get('/apropos', [AccueilController::class, 'about'])->name('apropos');
 Route::get('/activites', [AccueilController::class, 'activites'])->name('activites');
-Route::get('/archives', [AccueilController::class, 'archives'])->name('archives');
+Route::get('/team', [AccueilController::class, 'archives'])->name('team');
 Route::get('/contact', [AccueilController::class, 'contact'])->name('contact');
 Route::get('/detailActivite/{id}', [AccueilController::class, 'show'])->name('detailActivite');
 Route::get('/detailArchive/{id}', [AccueilController::class, 'detailArchive'])->name('detailArchive');
@@ -33,4 +33,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

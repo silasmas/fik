@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\team;
+use App\Models\accueil;
 use App\Http\Requests\StoreaccueilRequest;
 use App\Http\Requests\UpdateaccueilRequest;
-use App\Models\accueil;
 
 class AccueilController extends Controller
 {
@@ -13,6 +14,7 @@ class AccueilController extends Controller
      */
     public function index()
     {
+
         return view('pages.home');
     }
     public function about()

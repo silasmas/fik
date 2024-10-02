@@ -17,6 +17,7 @@
 
 <!-- Stylesheets -->
 <link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
+{{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"> --}}
 <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/owl.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/swiper.min.css') }}" rel="stylesheet">
