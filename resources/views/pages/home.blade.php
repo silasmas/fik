@@ -240,7 +240,7 @@
                     <div class="title-inner text-right">
                         <div class="sec-title">
                             <span class="top-text">@lang('info.cause.section')</span>
-                            <h2>@lang('info.cause.gtitre')</h2>
+                            <h3>@lang('info.cause.gtitre')</h3>
                         </div>
                         <div class="tab-btn-box">
                             <ul class="tab-btns tab-buttons clearfix">
