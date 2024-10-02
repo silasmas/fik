@@ -45,6 +45,8 @@ class MessageResource extends Resource
                 TextInput::make('phone')
                     ->tel()
                     ->maxLength(255),
+                TextInput::make('sujet')
+                    ->maxLength(255),
                 Textarea::make('message')
                     ->required()
                     ->columnSpanFull(),
@@ -62,6 +64,8 @@ class MessageResource extends Resource
                 TextColumn::make('email')
                     ->searchable(),
                 TextColumn::make('phone')
+                    ->searchable(),
+                TextColumn::make('sujet')
                     ->searchable(),
                 TextColumn::make('created_at')
                     ->dateTime()

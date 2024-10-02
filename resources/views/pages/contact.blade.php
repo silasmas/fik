@@ -12,30 +12,30 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                         <div class="contact-info-inner">
                             <div class="sec-title">
-                                <span class="top-text">Connecting Always</span>
-                                <h2>Hear by our Heart</h2>
-                                <p>Our team is available to help with your enquiries on email & phone, or visit our place.</p>
+                                <span class="top-text">Contactez nous </span>
+                                <h2>Fondation IK</h2>
+                                <p>@lang('info.slogant')</p>
                             </div>
                             <div class="info-box">
                                 <div class="single-item">
-                                    <h4>Quick Contact</h4>
+                                    <h4>Nos informations</h4>
                                     <div class="text">
                                         <div class="icon-box"><i class="icon-phone-call"></i></div>
-                                        <p>Main Office<br /><a href="tel:23345678901">(+233) 456-789-01</a></p>
+                                        <p>Téléphone<br /><a href="tel:243857000908">+243 857 000 908</a></p>
                                     </div>
                                 </div>
                                 <div class="single-item">
-                                    <h4>Email Address</h4>
+                                    <h4>Addresse Email :</h4>
                                     <div class="text">
                                         <div class="icon-box"><i class="icon-letter"></i></div>
-                                        <p>Mail to<br /><a href="mailto:info@example.com">info@example.com</a></p>
+                                        <p>Email à :<br /><a href="mailto:info@fik-rdc.com">info@fik-rdc.com</a></p>
                                     </div>
                                 </div>
                                 <div class="single-item">
-                                    <h4>Mailing Address</h4>
+                                    <h4>Addresse :</h4>
                                     <div class="text">
                                         <div class="icon-box"><i class="icon-location"></i></div>
-                                        <p>54 Berrick Street, Boston <br />MA 02115.</p>
+                                        <p>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</p>
                                     </div>
                                 </div>
                             </div>
@@ -47,34 +47,38 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                         <div class="contact-form-inner">
                             <div class="sec-title">
-                                <span class="top-text">Drop a Line</span>
-                                <h2>Leave us Message</h2>
-                                <p>Please feel free to get in touch using the form below. We'd love to hear for you.</p>
+                                <span class="top-text">Laissez-nous un message</span>
+                                <h2>remplissez le formulaire</h2>
+                                <p>@lang("info.slogant")</p>
                             </div>
                             <div class="form-inner">
-                                <form method="post" action="sendemail.php" id="contact-form" class="default-form">
+                                <form method="post" action="" id="contact-formd" class="default-form">
                                     <div class="form-group">
                                         <i class="far fa-user"></i>
-                                        <input type="text" name="username" placeholder="Your Name" required="">
+                                        <input type="text" name="nom" placeholder="Votre nom" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <i class="far fa-user"></i>
+                                        <input type="text" name="prenom" placeholder="Votre prénom" required="">
                                     </div>
                                     <div class="form-group">
                                         <i class="far fa-envelope"></i>
-                                        <input type="email" name="email" placeholder="Email Address" required="">
+                                        <input type="email" name="email" placeholder="Addresse mail" required="">
                                     </div>
                                     <div class="form-group">
                                         <i class="far fa-phone"></i>
-                                        <input type="text" name="phone" required="" placeholder="Phone">
+                                        <input type="text" name="phone" required="" placeholder="Téléphone">
                                     </div>
                                     <div class="form-group">
                                         <i class="far fa-sticky-note"></i>
-                                        <input type="text" name="subject" required="" placeholder="Subject">
+                                        <input type="text" name="sujet" required="" placeholder="Sujet">
                                     </div>
                                     <div class="form-group">
                                         <i class="far fa-text-height"></i>
-                                        <textarea name="message" placeholder="Massage"></textarea>
+                                        <textarea name="message" placeholder="Votre message"></textarea>
                                     </div>
                                     <div class="form-group message-btn">
-                                        <button class="theme-btn btn-one" type="submit" name="submit-form">Send Message</button>
+                                        <button class="theme-btn btn-one" type="submit" name="submit-form">Envoyer Message</button>
                                     </div>
                                 </form>
                             </div>
@@ -157,90 +161,7 @@
         <!-- google-map-section -->
 
 
-        <!-- charity-shops -->
-        <section class="charity-shops centred">
-            <div class="auto-container">
-                <div class="sec-title centred">
-                    <span class="top-text">Charity Shops</span>
-                    <h2>Another Way to Donate</h2>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
-                        <div class="single-item wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <figure class="flag"><img src="assets/images/resource/flag-1.jpg" alt=""></figure>
-                            <h4>United States</h4>
-                            <p>24/7, Global Factory Street, 2nd Cross, SF 94112.</p>
-                            <div class="phone"><a href="tel:625075206644">(625) 07520-6644</a></div>
-                            <div class="mail"><a href="mailto:mailus@example.com">mailus@example.com</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
-                        <div class="single-item wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <figure class="flag"><img src="assets/images/resource/flag-2.jpg" alt=""></figure>
-                            <h4>Australia</h4>
-                            <p>PO Box 515381, Los Angeles CA 90051, US</p>
-                            <div class="phone"><a href="tel:8885206644">+888-520-6644</a></div>
-                            <div class="mail"><a href="mailto:mailus@example.com">mailus@example.com</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
-                        <div class="single-item wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <figure class="flag"><img src="assets/images/resource/flag-3.jpg" alt=""></figure>
-                            <h4>United Kingdom</h4>
-                            <p>7220 Dean Martin Drive Suite, LV 89044</p>
-                            <div class="phone"><a href="tel:0752066445">07520-664-45</a></div>
-                            <div class="mail"><a href="mailto:mailus@example.com">mailus@example.com</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
-                        <div class="single-item wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <figure class="flag"><img src="assets/images/resource/flag-4.jpg" alt=""></figure>
-                            <h4>India</h4>
-                            <p>148, Global Factory Street Cleveland 44113.</p>
-                            <div class="phone"><a href="tel:3214567890">+321.45.67890</a></div>
-                            <div class="mail"><a href="mailto:mailus@example.com">mailus@example.com</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="more-text"><span>Our 14 charity shops around the world with clothing, toys & other items.</span></div>
-            </div>
-        </section>
-        <!-- charity-shops end -->
 
-
-        <!-- subscribe-section -->
-        <section class="subscribe-section">
-            <div class="bg-layer"></div>
-            <div class="auto-container">
-                <div class="inner-box clearfix">
-                    <div class="left-column pull-left">
-                        <div class="logo-box">
-                            <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
-                            <figure class="logo"><a href="index.html"><img src="assets/images/logo-3.png" alt=""></a></figure>
-                        </div>
-                        <div class="text">
-                            <h3><i class="icon-email-open-sketched-envelope"></i>Subscribe <br />Our Newsletter</h3>
-                        </div>
-                    </div>
-                    <div class="right-column pull-right clearfix">
-                        <div class="form-inner">
-                            <form action="contact.html" method="post" class="subscribe-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your Email Address..." required="">
-                                    <button type="submit">Subscribe Us</button>
-                                </div>
-                            </form>
-                        </div>
-                        <ul class="social-style-one clearfix">
-                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- subscribe-section end -->
 
 
 @endsection
