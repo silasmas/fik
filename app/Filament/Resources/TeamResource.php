@@ -32,7 +32,7 @@ use App\Filament\Resources\TeamResource\RelationManagers;
 
 class TeamResource extends Resource
 {
-    protected static ?string $model = Team::class;
+    protected static ?string $model = team::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-user-group';
 

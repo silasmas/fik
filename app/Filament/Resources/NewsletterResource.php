@@ -18,7 +18,7 @@ use App\Filament\Resources\NewsletterResource\RelationManagers;
 
 class NewsletterResource extends Resource
 {
-    protected static ?string $model = Newsletter::class;
+    protected static ?string $model = newsletter::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-envelope-open';
 
