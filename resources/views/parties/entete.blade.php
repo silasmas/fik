@@ -9,7 +9,7 @@
 
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/3.png" type="image/x-icon">
-
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -28,6 +28,7 @@
 <link href="{{ asset('assets/css/color.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('assets/sweetalert2/dist/sweetalert2.min.css') }}">
 @yield("style")
 </head>
 

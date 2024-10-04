@@ -27,6 +27,11 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->brandName('Dashboard FIK')
+            // ->viteTheme('resources/css/filament/admin/theme.css')
+            ->brandLogo(asset('assets/images/4.png'))
+            ->brandLogoHeight(fn() => auth()->check() ? '3rem' : '5rem')
+            ->favicon(asset('assets/images/logo/3.png'))
             ->colors([
                 'primary' => Color::Amber,
             ])

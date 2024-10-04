@@ -2,7 +2,7 @@
 <section class="subscribe-section">
     <div class="bg-layer"></div>
     <div class="auto-container">
-        <div class="inner-box clearfix">
+        <div class="clearfix inner-box">
             <div class="left-column pull-left">
                 <div class="logo-box">
                     <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
@@ -13,16 +13,16 @@
                         </i>Abonnez-vous <br> à la newsletter</h3>
                 </div>
             </div>
-            <div class="right-column pull-right clearfix">
+            <div class="clearfix right-column pull-right">
                 <div class="form-inner">
-                    <form action="contact.html" method="post" class="subscribe-form">
+                    <form action="" method="post" class="subscribe-form" id="formNewsletter" onsubmit="event.preventDefault();add('#formNewsletter','POST', 'addNewsletter','#formNewsletter')" >
                         <div class="form-group">
                             <input type="email" name="email" placeholder="Votre addresse mail..." required="">
                             <button type="submit">Abonnez-vous</button>
                         </div>
                     </form>
                 </div>
-                <ul class="social-style-one clearfix">
+                <ul class="clearfix social-style-one">
                     <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
@@ -36,7 +36,7 @@
  <section class="main-footer">
     <div class="footer-top">
         <div class="auto-container">
-            <div class="row clearfix">
+            <div class="clearfix row">
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget">
                         <div class="title-box">
@@ -56,7 +56,7 @@
                             <h3>Raccourcis</h3>
                         </div>
                         <div class="widget-content">
-                            <ul class="links-list clearfix">
+                            <ul class="clearfix links-list">
                                 <li><a href="{{ route('home') }}">Accueil</a></li>
                                 <li><a href="{{ route('apropos') }}">Apropos</a></li>
                                 <li><a href="{{ route('activites') }}">Nos activités</a></li>
@@ -72,7 +72,7 @@
                             <h3>Donations</h3>
                         </div>
                         <div class="widget-content">
-                            <ul class="links-list clearfix">
+                            <ul class="clearfix links-list">
                                 <li><a href="index.html">En espèce</a></li>
                                 <li><a href="index.html">En nature</a></li>
                             </ul>
@@ -103,11 +103,11 @@
     </div>
     <div class="footer-bottom">
         <div class="auto-container">
-            <div class="inner-box clearfix">
+            <div class="clearfix inner-box">
                 <div class="copyright pull-left">
                     <p>&copy; 2024 <a href="{{ route('home') }}">FIK,</a> Tout droits reservé.</p>
                 </div>
-                <ul class="footer-card pull-right clearfix">
+                <ul class="clearfix footer-card pull-right">
                     <li><span>Canaux de donations :</span></li>
                     <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-1.png" alt=""></a></li>
                     <li><a href="{{ route('home') }}"><img src="assets/images/resource/card-2.png" alt=""></a></li>
@@ -123,21 +123,21 @@
 
 
 <!-- donate popup -->
-<div id="donate-popup" class="donate-popup">
+{{-- <div id="donate-popup" class="donate-popup">
     <div class="close-donate"><i class="icon-close"></i></div>
     <div class="popup-inner">
         <div class="donate-content">
             <div class="sec-title centred">
-                <span class="top-text">Make Your Donation</span>
+                <span class="top-text">Faites votre don</span>
                 <h2>Creating a Brighter Tomorrow</h2>
             </div>
             <form action="index.html" method="post" class="default-form">
-                <div class="row clearfix">
+                <div class="clearfix row">
                     <div class="col-lg-6 col-md-12 col-sm-12 donate-column">
                         <div class="donate-box">
                             <div class="donate-option">
                                 <h3>How Much?</h3>
-                                <ul class="donate-list clearfix">
+                                <ul class="clearfix donate-list">
                                     <li>
                                         <input type="radio" id="donate-amount-1" name="donate-amount" checked="checked" />
                                         <label for="donate-amount-1" data-amount="1000" >$10</label>
@@ -175,7 +175,7 @@
                             </div>
                             <div class="payment-option">
                                 <h3>Choose Payment Option</h3>
-                                <ul class="payment-list clearfix">
+                                <ul class="clearfix payment-list">
                                     <li>
                                         <input type="radio" id="payment-method-1" name="payment-method" checked="checked" />
                                         <label for="payment-method-1" >Net Banking</label>
@@ -195,7 +195,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 donate-form">
                         <div class="form-inner">
                             <h3>Donar Information</h3>
-                            <div class="row clearfix">
+                            <div class="clearfix row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 column">
                                     <div class="form-group">
                                         <label>Your Name <span>*</span></label>
@@ -241,7 +241,7 @@
             </form>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- donate popup -->
 
 

@@ -8,9 +8,9 @@
     <!-- header-top -->
     <div class="header-top">
         <div class="outer-container">
-            <div class="top-inner clearfix">
+            <div class="clearfix top-inner">
                 <div class="left-column pull-left">
-                    <ul class="info-list clearfix">
+                    <ul class="clearfix info-list">
                         <li>
                             <i class="icon-chat"></i>
                             <span>Ligne d'assistance :</span>
@@ -30,7 +30,7 @@
                     </div>
                     {{-- <div class="language-box">
                         <span>En</span>
-                        <ul class="language-list clearfix">
+                        <ul class="clearfix language-list">
                             <li><a href="index.html">Français</a></li>
                             <li><a href="index.html">Spanish</a></li>
                             <li><a href="index.html">Chines</a></li>
@@ -41,7 +41,7 @@
         </div>
         <!-- donate-btn -->
         <div class="donate-btn">
-            <button class="donate-box-btn theme-btn btn-one">Faire un don</button>
+            <a href="{{ route('don') }}" class="donate-box-btn theme-btn btn-one">Faire un don</a>
         </div>
     </div>
     <!-- header-lower -->
@@ -52,7 +52,7 @@
                     <figure class="icon-box"><img src="assets/images/icons/heart-1.png" alt=""></figure>
                     <span>Devenir volontaire</span>
                 </div>
-                <div class="menu-area clearfix">
+                <div class="clearfix menu-area">
                     <!--Mobile Navigation Toggler-->
                     <div class="mobile-nav-toggler">
                         <i class="icon-bar"></i>
@@ -60,8 +60,8 @@
                         <i class="icon-bar"></i>
                     </div>
                     <nav class="main-menu navbar-expand-md navbar-light">
-                        <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                            <ul class="navigation clearfix">
+                        <div class="clearfix collapse navbar-collapse show" id="navbarSupportedContent">
+                            <ul class="clearfix navigation">
                                 <li class="{{active('home')}}"><a href="{{ route('home') }}">Accueil</a></li>
                                 <li class="{{active('apropos')}}"><a href="{{ route('apropos') }}">Aprpopos</a></li>
                                 <li class="{{active('activites')}} {{ active('detailActivite') }}"><a href="{{ route('activites') }}">Nos activités</a> </li>
@@ -71,8 +71,8 @@
                         </div>
                     </nav>
                 </div>
-                <div class="nav-right-content clearfix">
-                    <ul class="social-style-one clearfix">
+                <div class="clearfix nav-right-content">
+                    <ul class="clearfix social-style-one">
                         <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href=""><i class="fab fa-twitter"></i></a></li>
                         <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -98,7 +98,7 @@
                     <div class="cart-box">
                         <a href="products.html"><i class="icon-shopping-bag"></i></a>
                     </div>
-                    <div class="nav-btn nav-toggler navSidebar-button clearfix">
+                    <div class="clearfix nav-btn nav-toggler navSidebar-button">
                         <i class="icon-menu"></i>
                     </div>
                 </div>
@@ -110,17 +110,17 @@
     <div class="sticky-header">
         <div class="auto-container">
             <div class="outer-box">
-                <div class="menu-area clearfix">
-                    <nav class="main-menu clearfix">
+                <div class="clearfix menu-area">
+                    <nav class="clearfix main-menu">
                         <!--Keep This Empty / Menu will come through Javascript-->
                     </nav>
                 </div>
-                <div class="nav-right-content clearfix">
-                    <ul class="social-style-one clearfix">
-                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="index.html"><i class="fab fa-youtube"></i></a></li>
+                <div class="clearfix nav-right-content">
+                    <ul class="clearfix social-style-one">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
                     </ul>
                     <div class="search-box-outer">
                         <div class="dropdown">
@@ -140,7 +140,7 @@
                     <div class="cart-box">
                         <a href="products.html"><i class="icon-shopping-bag"></i></a>
                     </div>
-                    <div class="nav-btn nav-toggler navSidebar-button clearfix">
+                    <div class="clearfix nav-btn nav-toggler navSidebar-button">
                         <i class="icon-menu"></i>
                     </div>
                 </div>
@@ -153,26 +153,26 @@
 <!-- Mobile Menu  -->
 <div class="mobile-menu">
     <div class="menu-backdrop"></div>
-    <div class="close-btn"><i class="fas fa-times"></i></div>
+    <div class="close-btn"><i classs="fas fa-times"></i></div>
 
     <nav class="menu-box">
         <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
         <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         <div class="contact-info">
-            <h4>Contact Info</h4>
+            <h4>Information de conatct</h4>
             <ul>
-                <li>Chicago 12, Melborne City, USA</li>
-                <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</li>
+                <li><a href="tel:+243857000908">+243 857 000 908</a></li>
+                <li><a href="mailto:info@example.com">info@fik-rdc.com</a></li>
             </ul>
         </div>
         <div class="social-links">
             <ul class="clearfix">
-                <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                <li><a href=""><span class="fab fa-twitter"></span></a></li>
+                <li><a href=""><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href=""><span class="fab fa-pinterest-p"></span></a></li>
+                <li><a href=""><span class="fab fa-instagram"></span></a></li>
+                <li><a href=""><span class="fab fa-youtube"></span></a></li>
             </ul>
         </div>
     </nav>

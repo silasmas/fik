@@ -52,7 +52,7 @@
                                 <p>@lang("info.slogant")</p>
                             </div>
                             <div class="form-inner">
-                                <form method="post" action="" id="contact-formd" class="default-form">
+                                <form method="post" action="" id="formMessage" onsubmit="event.preventDefault();add('#formMessage','POST', 'sendMessage','#formMessage')" class="default-form">
                                     <div class="form-group">
                                         <i class="far fa-user"></i>
                                         <input type="text" name="nom" placeholder="Votre nom" required="">
