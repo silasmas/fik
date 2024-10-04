@@ -17,6 +17,10 @@ use App\Http\Controllers\ProfileController;
 |
 */
 
+Route::get('/symlink', function () {
+    return view('symlink');
+})->name('generate_symlink');
+
 Route::get('/', [AccueilController::class, 'index'])->name('home');
 Route::get('/apropos', [AccueilController::class, 'about'])->name('apropos');
 Route::get('/activites', [AccueilController::class, 'activites'])->name('activites');
